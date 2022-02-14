@@ -340,6 +340,16 @@ h1, h2, h3, h4, h5 {
   background-color: #2E80B6;
 }
 
+.tab__img {
+  margin-bottom: 16px;
+}
+
+.tab__title-bottom {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 14px;
+}
+
 @media (max-width: 510px) {
   .tab__btns {
     -webkit-box-orient: vertical;
@@ -389,7 +399,7 @@ h1, h2, h3, h4, h5 {
 .about__list-text {
   text-align: left;
   padding-right: 20px;
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .about__links {
@@ -405,7 +415,7 @@ h1, h2, h3, h4, h5 {
 .about__link {
   text-decoration: none;
   padding-bottom: 12px;
-  padding-top: 5px;
+  padding-top: 8px;
   font-size: 13px;
   color: #668CAD;
   border-bottom: 1px solid #D5D5E0;
@@ -417,7 +427,7 @@ h1, h2, h3, h4, h5 {
   display: flex;
   font-size: 13px;
   padding-bottom: 12px;
-  padding-top: 5px;
+  padding-top: 8px;
   border-bottom: 1px solid #D5D5E0;
   margin-left: 30px;
   position: relative;
